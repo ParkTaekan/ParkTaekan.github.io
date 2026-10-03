@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Odina · 어디나 — anywhere is Ok!</title>
+<meta name="description" content="Odina(어디나): 같은 와이파이에서도, 인터넷으로도, 비행기 모드에서도 친구들과 함께하는 카드 게임. 어디나 훌라, 어디나 고스톱.">
+<link rel="icon" href="img/odina-mark-180.png">
+<style>
+  :root { --top: #167048; --bottom: #0e4a31; --gold: #ffcd40; --ink: #1d2420; --dim: #5a665e; --line: #d5dcd6; --bg: #f6f7f4; }
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: system-ui, -apple-system, "Noto Sans KR", sans-serif; background: var(--bg); color: var(--ink); line-height: 1.7; }
+  .hero { background: linear-gradient(180deg, var(--top), var(--bottom)); color: #fff; text-align: center; padding: 56px 20px 64px; }
+  .logos { display: flex; align-items: center; justify-content: center; gap: 28px; flex-wrap: wrap; }
+  .logos img.ko { height: 120px; }
+  .logos img.en { height: 92px; }
+  .logos .bar { width: 2px; height: 90px; background: rgba(255,255,255,.4); }
+  .hero h1 { font-size: 26px; color: var(--gold); margin: 30px 0 6px; }
+  .hero p { margin: 0; color: #d6e8dd; font-size: 17px; }
+  main { max-width: 860px; margin: 0 auto; padding: 8px 20px 60px; }
+  h2 { font-size: 20px; margin-top: 40px; padding-bottom: 6px; border-bottom: 2px solid var(--bottom); }
+  .games { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 18px; margin-top: 16px; }
+  .game { background: #fff; border: 1px solid var(--line); border-radius: 16px; padding: 18px; display: flex; gap: 16px; align-items: flex-start; }
+  .game img { width: 92px; height: 92px; border-radius: 20px; flex: none; }
+  .game h3 { margin: 0 0 4px; font-size: 18px; }
+  .game .en { color: var(--dim); font-size: 13px; margin-bottom: 6px; }
+  .game p { margin: 0 0 8px; font-size: 14px; }
+  .links a { display: inline-block; margin: 2px 10px 2px 0; color: var(--bottom); font-weight: 700; font-size: 14px; text-decoration: none; }
+  .soon { display: inline-block; font-size: 12px; background: #fff3c4; color: #7a5a00; border-radius: 6px; padding: 0 8px; }
+  ul.points { padding-left: 20px; }
+  footer { text-align: center; color: var(--dim); font-size: 13px; padding: 24px 20px 40px; border-top: 1px solid var(--line); }
+  footer a { color: var(--dim); }
+  @media (max-width: 520px) {
+    .logos img.ko { height: 84px; } .logos img.en { height: 64px; } .logos .bar { display: none; }
+    .hero h1 { font-size: 21px; }
+  }
+</style>
+</head>
+<body>
+<section class="hero">
+  <div class="logos">
+    <img class="ko" src="img/odina-logo-ko-white.png" alt="어디나">
+    <span class="bar"></span>
+    <img class="en" src="img/odina-logo-white.png" alt="Odina">
+  </div>
+  <h1>같은 와이파이에서도, 인터넷으로도, 비행기 모드에서도</h1>
+  <p>친구들과 둘러앉아 하던 카드 게임을, 어디서나.</p>
+</section>
+
+<main>
+  <h2>게임</h2>
+  <div class="games">
+    <div class="game">
+      <img src="img/hula-icon.png" alt="어디나 훌라 아이콘">
+      <div>
+        <h3>어디나 훌라</h3>
+        <div class="en">Hula Anywhere · 지금 데모 테스트 중</div>
+        <p>등록·붙이기, 땡큐, 스톱, 한방, 포카·빵구, 골드판과 기리까지 우리가 하던 훌라 그대로.</p>
+        <div class="links">
+          <a href="https://parktaekan.github.io/hula-join/guide.html">사용설명서</a>
+          <a href="https://parktaekan.github.io/hula-join/privacy.html">개인정보처리방침</a>
+        </div>
+      </div>
+    </div>
+    <div class="game">
+      <img src="img/gostop-icon.png" alt="어디나 고스톱 아이콘">
+      <div>
+        <h3>어디나 고스톱 <span class="soon">준비 중</span></h3>
+        <div class="en">GoStop Anywhere</div>
+        <p>같은 방식으로 어디서나 즐기는 고스톱을 준비하고 있습니다.</p>
+      </div>
+    </div>
+  </div>
+
+  <h2>어디나(Odina)는</h2>
+  <ul class="points">
+    <li><b>인터넷이 없어도</b> — 같은 와이파이나 휴대폰 핫스팟만 있으면 비행기 안, 캠핑장에서도 함께 합니다.</li>
+    <li><b>멀리 있어도</b> — 카톡 초대 링크나 QR 하나로 인터넷을 통해 같은 방에 들어옵니다.</li>
+    <li><b>회원 가입 없이</b> — 이름만 정하면 바로 시작합니다. 게임 점수는 돈이 아니며 결제·광고가 없습니다.</li>
+  </ul>
+</main>
+
+<footer>
+  Odina · 어디나 — anywhere is Ok!<br>
+  문의 <a href="mailto:taekan66@gmail.com">taekan66@gmail.com</a>
+</footer>
+</body>
+</html>
