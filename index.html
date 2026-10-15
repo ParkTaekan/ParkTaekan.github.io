@@ -47,6 +47,18 @@
   .links .apk.off { display: block; width: fit-content; margin: 4px 0 8px; padding: 6px 16px; border-radius: 10px; background: rgba(127,127,127,.25); color: var(--dim); cursor: default; }
   .apk-note { font-size: 12px; color: var(--dim); margin: 6px 0 0; }
   footer a { color: var(--dim); }
+  .ranks { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 18px; margin-top: 16px; }
+  .rank { background: #fff; border: 1px solid var(--line); border-radius: 16px; padding: 14px 18px; }
+  .rank h3 { margin: 0 0 8px; font-size: 17px; }
+  .rank h3 span { font-size: 12px; color: var(--dim); font-weight: 400; margin-left: 6px; }
+  .rank ol { list-style: none; margin: 0; padding: 0; }
+  .rank li { display: flex; gap: 10px; align-items: baseline; padding: 4px 0; border-top: 1px solid #eef1ee; font-size: 14px; }
+  .rank li:first-child { border-top: 0; }
+  .rank .no { width: 22px; font-weight: 700; color: var(--bottom); font-variant-numeric: tabular-nums; }
+  .rank .nm { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .rank .tag { font-size: 11px; color: var(--dim); margin-left: 4px; }
+  .rank .sc { font-variant-numeric: tabular-nums; font-weight: 700; }
+  .rank .empty { color: var(--dim); font-size: 14px; }
   @media (max-width: 520px) {
     .logos img.ko { height: 84px; } .logos img.en { height: 64px; } .logos .bar { display: none; }
     .hero h1 { font-size: 21px; }
@@ -94,6 +106,13 @@
     </div>
   </div>
 
+  <h2>어디나 훌라 랭킹</h2>
+  <div class="ranks">
+    <div class="rank"><h3>AI 랭킹<span>내가 학습시킨 AI의 평점 · 기본 AI = 1500</span></h3><ol id="r-ai"></ol></div>
+    <div class="rank"><h3>이번 달 상금 랭킹<span>혼자 하기 누적 상금</span></h3><ol id="r-month"></ol></div>
+  </div>
+  <p class="apk-note" id="r-updated">앱의 성적 화면에서 내 순위와 이번 분기 랭킹도 볼 수 있습니다.</p>
+
   <h2>어디나(Odina)는</h2>
   <ul class="points">
     <li><b>인터넷이 없어도</b> — 같은 와이파이나 휴대폰 핫스팟만 있으면 비행기 안, 캠핑장에서도 함께 합니다.</li>
@@ -106,5 +125,32 @@
   <b>Odina Studio</b> · 어디나 — anywhere is Ok!<br>
   문의 <a href="mailto:taekan66@gmail.com">taekan66@gmail.com</a>
 </footer>
+<script>
+// 훌라 순위 (hula/ranking.json: PC에서 Unity 순위표를 받아 올린 것)
+(function () {
+  function row(list, no, name, tag, score) {
+    var li = document.createElement('li');
+    var a = document.createElement('span'); a.className = 'no'; a.textContent = no;
+    var b = document.createElement('span'); b.className = 'nm'; b.textContent = name;
+    if (tag) { var t = document.createElement('span'); t.className = 'tag'; t.textContent = tag; b.appendChild(t); }
+    var c = document.createElement('span'); c.className = 'sc'; c.textContent = Number(score).toLocaleString('ko-KR');
+    li.appendChild(a); li.appendChild(b); li.appendChild(c); list.appendChild(li);
+  }
+  function empty(list) { var li = document.createElement('li'); li.className = 'empty'; li.textContent = '아직 순위가 없습니다'; list.appendChild(li); }
+  fetch('hula/ranking.json', { cache: 'no-store' }).then(function (r) { return r.json(); }).then(function (d) {
+    var b = d.boards || {};
+    var ai = [].concat((b.hula_ai_like || {}).top || []).map(function (e) { return { n: e.name, s: e.score, t: '닮은 AI' }; })
+      .concat(((b.hula_ai_strong || {}).top || []).map(function (e) { return { n: e.name, s: e.score, t: '강한 AI' }; }))
+      .sort(function (x, y) { return y.s - x.s; }).slice(0, 10);
+    var aiList = document.getElementById('r-ai'), mList = document.getElementById('r-month');
+    if (ai.length) ai.forEach(function (e, i) { row(aiList, i + 1, e.n, e.t, e.s); }); else empty(aiList);
+    var m = (b.hula_solo_month || {}).top || [];
+    if (m.length) m.forEach(function (e) { row(mList, e.rank, e.n !== undefined ? e.n : e.name, '', e.score); }); else empty(mList);
+    if (d.updated) document.getElementById('r-updated').textContent = d.updated + ' 기준 · 앱의 성적 화면에서 내 순위와 이번 분기 랭킹도 볼 수 있습니다.';
+  }).catch(function () {
+    empty(document.getElementById('r-ai')); empty(document.getElementById('r-month'));
+  });
+})();
+</script>
 </body>
 </html>

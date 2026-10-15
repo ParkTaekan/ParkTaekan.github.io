@@ -1,0 +1,33 @@
+{
+ "updated": "2026-10-15 23:26",
+ "boards": {
+  "hula_ai_like": {
+   "total": 0,
+   "top": []
+  },
+  "hula_ai_strong": {
+   "total": 0,
+   "top": []
+  },
+  "hula_solo_month": {
+   "total": 1,
+   "top": [
+    {
+     "rank": 1,
+     "name": "TK",
+     "score": 1075000
+    }
+   ]
+  },
+  "hula_solo_quarter": {
+   "total": 1,
+   "top": [
+    {
+     "rank": 1,
+     "name": "TK",
+     "score": 1075000
+    }
+   ]
+  }
+ }
+}
