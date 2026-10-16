@@ -1,39 +1,55 @@
 {
- "updated": "2026-10-16 16:00",
+ "updated": "2026-10-16 18:00",
  "boards": {
   "hula_ai_like": {
    "total": 0,
    "top": []
   },
   "hula_ai_strong": {
-   "total": 0,
-   "top": []
-  },
-  "hula_solo_month": {
-   "total": 2,
+   "total": 1,
    "top": [
     {
      "rank": 1,
      "name": "TK",
-     "score": 1406000
+     "score": 1454
+    }
+   ]
+  },
+  "hula_solo_month": {
+   "total": 3,
+   "top": [
+    {
+     "rank": 1,
+     "name": "TK",
+     "score": 1387000
     },
     {
      "rank": 2,
+     "name": "TK",
+     "score": 716000
+    },
+    {
+     "rank": 3,
      "name": "미소",
      "score": -219000
     }
    ]
   },
   "hula_solo_quarter": {
-   "total": 2,
+   "total": 3,
    "top": [
     {
      "rank": 1,
      "name": "TK",
-     "score": 1406000
+     "score": 1387000
     },
     {
      "rank": 2,
+     "name": "TK",
+     "score": 716000
+    },
+    {
+     "rank": 3,
      "name": "미소",
      "score": -219000
     }
