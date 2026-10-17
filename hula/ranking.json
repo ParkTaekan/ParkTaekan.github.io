@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-16 22:00",
+ "updated": "2026-10-17 10:00",
  "boards": {
   "hula_ai_like": {
    "total": 0,
@@ -16,7 +16,7 @@
    ]
   },
   "hula_solo_month": {
-   "total": 3,
+   "total": 4,
    "top": [
     {
      "rank": 1,
@@ -26,17 +26,22 @@
     {
      "rank": 2,
      "name": "TK",
-     "score": 699000
+     "score": 779000
     },
     {
      "rank": 3,
      "name": "미소",
      "score": -219000
+    },
+    {
+     "rank": 4,
+     "name": "스치는바람",
+     "score": -237000
     }
    ]
   },
   "hula_solo_quarter": {
-   "total": 3,
+   "total": 4,
    "top": [
     {
      "rank": 1,
@@ -46,12 +51,17 @@
     {
      "rank": 2,
      "name": "TK",
-     "score": 699000
+     "score": 779000
     },
     {
      "rank": 3,
      "name": "미소",
      "score": -219000
+    },
+    {
+     "rank": 4,
+     "name": "스치는바람",
+     "score": -237000
     }
    ]
   }
