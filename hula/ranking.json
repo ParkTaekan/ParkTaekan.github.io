@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20 14:00",
+ "updated": "2026-10-20 16:00",
  "boards": {
   "hula_ai_like": {
    "total": 0,
@@ -16,7 +16,7 @@
    ]
   },
   "hula_solo_month": {
-   "total": 10,
+   "total": 11,
    "top": [
     {
      "rank": 1,
@@ -50,28 +50,28 @@
     },
     {
      "rank": 7,
+     "name": "TKTBL",
+     "score": -17000
+    },
+    {
+     "rank": 8,
      "name": "우해운",
      "score": -25000
     },
     {
-     "rank": 8,
+     "rank": 9,
      "name": "수니",
      "score": -53000
     },
     {
-     "rank": 9,
+     "rank": 10,
      "name": "미소",
      "score": -234000
-    },
-    {
-     "rank": 10,
-     "name": "스치는바람",
-     "score": -237000
     }
    ]
   },
   "hula_solo_quarter": {
-   "total": 10,
+   "total": 11,
    "top": [
     {
      "rank": 1,
@@ -105,23 +105,23 @@
     },
     {
      "rank": 7,
+     "name": "TKTBL",
+     "score": -17000
+    },
+    {
+     "rank": 8,
      "name": "우해운",
      "score": -25000
     },
     {
-     "rank": 8,
+     "rank": 9,
      "name": "수니",
      "score": -53000
     },
     {
-     "rank": 9,
+     "rank": 10,
      "name": "미소",
      "score": -234000
-    },
-    {
-     "rank": 10,
-     "name": "스치는바람",
-     "score": -237000
     }
    ]
   }
