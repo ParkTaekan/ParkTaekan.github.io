@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-21 16:00",
+ "updated": "2026-10-22 10:34",
  "boards": {
   "hula_ai_like": {
    "total": 0,
@@ -26,7 +26,7 @@
     {
      "rank": 2,
      "name": "TK",
-     "score": 1046000
+     "score": 1114000
     },
     {
      "rank": 3,
@@ -35,27 +35,27 @@
     },
     {
      "rank": 4,
+     "name": "TKTBL",
+     "score": 67000
+    },
+    {
+     "rank": 5,
      "name": "스치는바람",
      "score": 7000
     },
     {
-     "rank": 5,
+     "rank": 6,
      "name": "채원",
      "score": 0
     },
     {
-     "rank": 6,
+     "rank": 7,
      "name": "하하하",
      "score": -1000
     },
     {
-     "rank": 7,
-     "name": "우해운",
-     "score": -25000
-    },
-    {
      "rank": 8,
-     "name": "TKTBL",
+     "name": "우해운",
      "score": -25000
     },
     {
@@ -81,7 +81,7 @@
     {
      "rank": 2,
      "name": "TK",
-     "score": 1046000
+     "score": 1114000
     },
     {
      "rank": 3,
@@ -90,27 +90,27 @@
     },
     {
      "rank": 4,
+     "name": "TKTBL",
+     "score": 67000
+    },
+    {
+     "rank": 5,
      "name": "스치는바람",
      "score": 7000
     },
     {
-     "rank": 5,
+     "rank": 6,
      "name": "채원",
      "score": 0
     },
     {
-     "rank": 6,
+     "rank": 7,
      "name": "하하하",
      "score": -1000
     },
     {
-     "rank": 7,
-     "name": "우해운",
-     "score": -25000
-    },
-    {
      "rank": 8,
-     "name": "TKTBL",
+     "name": "우해운",
      "score": -25000
     },
     {
