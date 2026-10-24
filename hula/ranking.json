@@ -1,129 +1,21 @@
 {
- "updated": "2026-10-23 22:00",
+ "updated": "2026-10-24 17:39",
  "boards": {
   "hula_ai_like": {
    "total": 0,
    "top": []
   },
   "hula_ai_strong": {
-   "total": 1,
-   "top": [
-    {
-     "rank": 1,
-     "name": "TK",
-     "score": 1454
-    }
-   ]
+   "total": 0,
+   "top": []
   },
   "hula_solo_month": {
-   "total": 12,
-   "top": [
-    {
-     "rank": 1,
-     "name": "TK",
-     "score": 1538000
-    },
-    {
-     "rank": 2,
-     "name": "TK",
-     "score": 1091000
-    },
-    {
-     "rank": 3,
-     "name": "성광",
-     "score": 686000
-    },
-    {
-     "rank": 4,
-     "name": "TKTBL",
-     "score": 203000
-    },
-    {
-     "rank": 5,
-     "name": "스치는바람",
-     "score": 7000
-    },
-    {
-     "rank": 6,
-     "name": "채원",
-     "score": 0
-    },
-    {
-     "rank": 7,
-     "name": "하하하",
-     "score": -1000
-    },
-    {
-     "rank": 8,
-     "name": "우해운",
-     "score": -25000
-    },
-    {
-     "rank": 9,
-     "name": "바서서",
-     "score": -39000
-    },
-    {
-     "rank": 10,
-     "name": "수니",
-     "score": -53000
-    }
-   ]
+   "total": 0,
+   "top": []
   },
   "hula_solo_quarter": {
-   "total": 12,
-   "top": [
-    {
-     "rank": 1,
-     "name": "TK",
-     "score": 1538000
-    },
-    {
-     "rank": 2,
-     "name": "TK",
-     "score": 1091000
-    },
-    {
-     "rank": 3,
-     "name": "성광",
-     "score": 686000
-    },
-    {
-     "rank": 4,
-     "name": "TKTBL",
-     "score": 203000
-    },
-    {
-     "rank": 5,
-     "name": "스치는바람",
-     "score": 7000
-    },
-    {
-     "rank": 6,
-     "name": "채원",
-     "score": 0
-    },
-    {
-     "rank": 7,
-     "name": "하하하",
-     "score": -1000
-    },
-    {
-     "rank": 8,
-     "name": "우해운",
-     "score": -25000
-    },
-    {
-     "rank": 9,
-     "name": "바서서",
-     "score": -39000
-    },
-    {
-     "rank": 10,
-     "name": "수니",
-     "score": -53000
-    }
-   ]
+   "total": 0,
+   "top": []
   }
  }
 }
