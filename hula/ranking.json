@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27 07:51",
+ "updated": "2026-10-27 22:00",
  "boards": {
   "hula_ai_like": {
    "total": 0,
@@ -16,7 +16,7 @@
    ]
   },
   "hula_solo_month": {
-   "total": 12,
+   "total": 13,
    "top": [
     {
      "rank": 1,
@@ -55,23 +55,23 @@
     },
     {
      "rank": 8,
+     "name": "수학맘",
+     "score": -10000
+    },
+    {
+     "rank": 9,
      "name": "우해운",
      "score": -25000
     },
     {
-     "rank": 9,
+     "rank": 10,
      "name": "바서서",
      "score": -39000
-    },
-    {
-     "rank": 10,
-     "name": "수니",
-     "score": -53000
     }
    ]
   },
   "hula_solo_quarter": {
-   "total": 12,
+   "total": 13,
    "top": [
     {
      "rank": 1,
@@ -110,18 +110,18 @@
     },
     {
      "rank": 8,
+     "name": "수학맘",
+     "score": -10000
+    },
+    {
+     "rank": 9,
      "name": "우해운",
      "score": -25000
     },
     {
-     "rank": 9,
+     "rank": 10,
      "name": "바서서",
      "score": -39000
-    },
-    {
-     "rank": 10,
-     "name": "수니",
-     "score": -53000
     }
    ]
   }
