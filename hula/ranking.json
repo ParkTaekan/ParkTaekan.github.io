@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01 14:28",
+ "updated": "2026-11-01 18:00",
  "boards": {
   "hula_ai_like": {
    "total": 0,
@@ -21,12 +21,22 @@
    ]
   },
   "hula_solo_month": {
-   "total": 1,
+   "total": 3,
    "top": [
     {
      "rank": 1,
      "name": "체리케이크",
      "score": 11000
+    },
+    {
+     "rank": 2,
+     "name": "TK",
+     "score": -13000
+    },
+    {
+     "rank": 3,
+     "name": "토리",
+     "score": -26000
     }
    ]
   },
@@ -46,7 +56,7 @@
     {
      "rank": 3,
      "name": "TK",
-     "score": 657000
+     "score": 644000
     },
     {
      "rank": 4,
