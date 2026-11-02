@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02 20:00",
+ "updated": "2026-11-02 22:00",
  "boards": {
   "hula_ai_like": {
    "total": 0,
@@ -26,7 +26,7 @@
    ]
   },
   "hula_solo_month": {
-   "total": 5,
+   "total": 7,
    "top": [
     {
      "rank": 1,
@@ -40,23 +40,33 @@
     },
     {
      "rank": 3,
-     "name": "JIN",
-     "score": -4000
+     "name": "TK",
+     "score": -3000
     },
     {
      "rank": 4,
-     "name": "TK",
-     "score": -13000
+     "name": "JIN",
+     "score": -4000
     },
     {
      "rank": 5,
      "name": "토리",
      "score": -25000
+    },
+    {
+     "rank": 6,
+     "name": "미스터곽",
+     "score": -51000
+    },
+    {
+     "rank": 7,
+     "name": "LIBERA",
+     "score": -108000
     }
    ]
   },
   "hula_solo_quarter": {
-   "total": 28,
+   "total": 30,
    "top": [
     {
      "rank": 1,
@@ -71,7 +81,7 @@
     {
      "rank": 3,
      "name": "TK",
-     "score": 644000
+     "score": 654000
     },
     {
      "rank": 4,
