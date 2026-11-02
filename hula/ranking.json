@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02 16:00",
+ "updated": "2026-11-02 20:00",
  "boards": {
   "hula_ai_like": {
    "total": 0,
@@ -35,23 +35,23 @@
     },
     {
      "rank": 2,
-     "name": "토리",
-     "score": 32000
-    },
-    {
-     "rank": 3,
      "name": "가비",
      "score": -2000
     },
     {
-     "rank": 4,
+     "rank": 3,
      "name": "JIN",
      "score": -4000
     },
     {
-     "rank": 5,
+     "rank": 4,
      "name": "TK",
      "score": -13000
+    },
+    {
+     "rank": 5,
+     "name": "토리",
+     "score": -25000
     }
    ]
   },
