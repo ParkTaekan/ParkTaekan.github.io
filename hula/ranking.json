@@ -1,21 +1,104 @@
 {
- "updated": "2026-11-02 09:47",
+ "updated": "2026-11-02 10:00",
  "boards": {
   "hula_ai_like": {
    "total": 0,
    "top": []
   },
   "hula_ai_strong": {
-   "total": 0,
-   "top": []
+   "total": 2,
+   "top": [
+    {
+     "rank": 1,
+     "name": "yeny",
+     "score": 1535
+    },
+    {
+     "rank": 2,
+     "name": "TK",
+     "score": 1454
+    }
+   ]
   },
   "hula_solo_month": {
-   "total": 0,
-   "top": []
+   "total": 4,
+   "top": [
+    {
+     "rank": 1,
+     "name": "토리",
+     "score": 32000
+    },
+    {
+     "rank": 2,
+     "name": "체리케이크",
+     "score": 11000
+    },
+    {
+     "rank": 3,
+     "name": "가비",
+     "score": -2000
+    },
+    {
+     "rank": 4,
+     "name": "TK",
+     "score": -13000
+    }
+   ]
   },
   "hula_solo_quarter": {
-   "total": 0,
-   "top": []
+   "total": 27,
+   "top": [
+    {
+     "rank": 1,
+     "name": "TK",
+     "score": 1538000
+    },
+    {
+     "rank": 2,
+     "name": "성광",
+     "score": 686000
+    },
+    {
+     "rank": 3,
+     "name": "TK",
+     "score": 644000
+    },
+    {
+     "rank": 4,
+     "name": "TKTBL",
+     "score": 385000
+    },
+    {
+     "rank": 5,
+     "name": "yeny",
+     "score": 78000
+    },
+    {
+     "rank": 6,
+     "name": "익명",
+     "score": 37000
+    },
+    {
+     "rank": 7,
+     "name": "체리케이크",
+     "score": 11000
+    },
+    {
+     "rank": 8,
+     "name": "니링",
+     "score": 8000
+    },
+    {
+     "rank": 9,
+     "name": "스치는바람",
+     "score": 7000
+    },
+    {
+     "rank": 10,
+     "name": "노아시온",
+     "score": 5000
+    }
+   ]
   }
  }
 }
