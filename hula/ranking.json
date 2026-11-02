@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-02 10:00",
+ "updated": "2026-11-02 14:00",
  "boards": {
   "hula_ai_like": {
    "total": 0,
    "top": []
   },
   "hula_ai_strong": {
-   "total": 2,
+   "total": 3,
    "top": [
     {
      "rank": 1,
@@ -15,13 +15,18 @@
     },
     {
      "rank": 2,
+     "name": "체리케이크",
+     "score": 1503
+    },
+    {
+     "rank": 3,
      "name": "TK",
      "score": 1454
     }
    ]
   },
   "hula_solo_month": {
-   "total": 4,
+   "total": 5,
    "top": [
     {
      "rank": 1,
@@ -40,13 +45,18 @@
     },
     {
      "rank": 4,
+     "name": "JIN",
+     "score": -4000
+    },
+    {
+     "rank": 5,
      "name": "TK",
      "score": -13000
     }
    ]
   },
   "hula_solo_quarter": {
-   "total": 27,
+   "total": 28,
    "top": [
     {
      "rank": 1,
