@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07 18:00",
+ "updated": "2026-11-08 10:00",
  "boards": {
   "hula_ai_like": {
    "total": 0,
@@ -35,13 +35,13 @@
     },
     {
      "rank": 2,
-     "name": "흰곰",
-     "score": 16000
+     "name": "TK",
+     "score": 8000
     },
     {
      "rank": 3,
-     "name": "TK",
-     "score": 8000
+     "name": "흰곰",
+     "score": 7000
     },
     {
      "rank": 4,
@@ -120,13 +120,13 @@
     },
     {
      "rank": 8,
-     "name": "흰곰",
-     "score": 16000
+     "name": "니링",
+     "score": 8000
     },
     {
      "rank": 9,
-     "name": "니링",
-     "score": 8000
+     "name": "흰곰",
+     "score": 7000
     },
     {
      "rank": 10,
