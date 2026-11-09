@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09 10:04",
+ "updated": "2026-11-09 22:00",
  "boards": {
   "hula_ai_like": {
    "total": 0,
@@ -26,7 +26,7 @@
    ]
   },
   "hula_solo_month": {
-   "total": 13,
+   "total": 15,
    "top": [
     {
      "rank": 1,
@@ -35,53 +35,53 @@
     },
     {
      "rank": 2,
+     "name": "&&*",
+     "score": 104000
+    },
+    {
+     "rank": 3,
+     "name": "허덩크",
+     "score": 84000
+    },
+    {
+     "rank": 4,
      "name": "TK",
      "score": 8000
     },
     {
-     "rank": 3,
+     "rank": 5,
      "name": "흰곰",
      "score": 7000
     },
     {
-     "rank": 4,
+     "rank": 6,
      "name": "skylove",
      "score": 2000
     },
     {
-     "rank": 5,
+     "rank": 7,
      "name": "미노",
      "score": -1000
     },
     {
-     "rank": 6,
+     "rank": 8,
      "name": "뀨",
      "score": -1000
     },
     {
-     "rank": 7,
+     "rank": 9,
      "name": "가비",
      "score": -2000
     },
     {
-     "rank": 8,
+     "rank": 10,
      "name": "JIN",
      "score": -4000
-    },
-    {
-     "rank": 9,
-     "name": "토리",
-     "score": -25000
-    },
-    {
-     "rank": 10,
-     "name": "미스터곽",
-     "score": -51000
     }
    ]
   },
   "hula_solo_quarter": {
-   "total": 36,
+   "total": 38,
    "top": [
     {
      "rank": 1,
@@ -110,28 +110,28 @@
     },
     {
      "rank": 6,
+     "name": "&&*",
+     "score": 104000
+    },
+    {
+     "rank": 7,
+     "name": "허덩크",
+     "score": 84000
+    },
+    {
+     "rank": 8,
      "name": "yeny",
      "score": 78000
     },
     {
-     "rank": 7,
+     "rank": 9,
      "name": "익명",
      "score": 37000
     },
     {
-     "rank": 8,
+     "rank": 10,
      "name": "니링",
      "score": 8000
-    },
-    {
-     "rank": 9,
-     "name": "흰곰",
-     "score": 7000
-    },
-    {
-     "rank": 10,
-     "name": "스치는바람",
-     "score": 7000
     }
    ]
   }
