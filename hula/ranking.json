@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17 14:00",
+ "updated": "2026-11-17 18:00",
  "boards": {
   "hula_ai_like": {
    "total": 0,
@@ -26,7 +26,7 @@
    ]
   },
   "hula_solo_month": {
-   "total": 26,
+   "total": 27,
    "top": [
     {
      "rank": 1,
@@ -46,7 +46,7 @@
     {
      "rank": 4,
      "name": "흰곰",
-     "score": 73000
+     "score": 60000
     },
     {
      "rank": 5,
@@ -81,7 +81,7 @@
    ]
   },
   "hula_solo_quarter": {
-   "total": 47,
+   "total": 48,
    "top": [
     {
      "rank": 1,
@@ -126,7 +126,7 @@
     {
      "rank": 9,
      "name": "흰곰",
-     "score": 73000
+     "score": 60000
     },
     {
      "rank": 10,
