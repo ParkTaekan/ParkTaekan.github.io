@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16 22:00",
+ "updated": "2026-11-17 10:00",
  "boards": {
   "hula_ai_like": {
    "total": 0,
@@ -26,47 +26,47 @@
    ]
   },
   "hula_solo_month": {
-   "total": 23,
+   "total": 26,
    "top": [
     {
      "rank": 1,
+     "name": "뀨",
+     "score": 241000
+    },
+    {
+     "rank": 2,
      "name": "체리케이크",
      "score": 153000
     },
     {
-     "rank": 2,
+     "rank": 3,
      "name": "&&*",
      "score": 104000
     },
     {
-     "rank": 3,
+     "rank": 4,
      "name": "흰곰",
      "score": 73000
     },
     {
-     "rank": 4,
+     "rank": 5,
      "name": "TK",
      "score": 41000
     },
     {
-     "rank": 5,
+     "rank": 6,
      "name": "허덩크",
      "score": 35000
     },
     {
-     "rank": 6,
+     "rank": 7,
      "name": "구구",
      "score": 27000
     },
     {
-     "rank": 7,
+     "rank": 8,
      "name": "TK",
      "score": 8000
-    },
-    {
-     "rank": 8,
-     "name": "뀨",
-     "score": -1000
     },
     {
      "rank": 9,
@@ -81,7 +81,7 @@
    ]
   },
   "hula_solo_quarter": {
-   "total": 44,
+   "total": 47,
    "top": [
     {
      "rank": 1,
@@ -105,33 +105,33 @@
     },
     {
      "rank": 5,
+     "name": "뀨",
+     "score": 241000
+    },
+    {
+     "rank": 6,
      "name": "체리케이크",
      "score": 153000
     },
     {
-     "rank": 6,
+     "rank": 7,
      "name": "&&*",
      "score": 104000
     },
     {
-     "rank": 7,
+     "rank": 8,
      "name": "yeny",
      "score": 78000
     },
     {
-     "rank": 8,
+     "rank": 9,
      "name": "흰곰",
      "score": 73000
     },
     {
-     "rank": 9,
+     "rank": 10,
      "name": "익명",
      "score": 37000
-    },
-    {
-     "rank": 10,
-     "name": "허덩크",
-     "score": 35000
     }
    ]
   }
