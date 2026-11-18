@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18 20:00",
+ "updated": "2026-11-18 22:00",
  "boards": {
   "hula_ai_like": {
    "total": 0,
@@ -26,7 +26,7 @@
    ]
   },
   "hula_solo_month": {
-   "total": 32,
+   "total": 33,
    "top": [
     {
      "rank": 1,
@@ -36,7 +36,7 @@
     {
      "rank": 2,
      "name": "TK",
-     "score": 300000
+     "score": 297000
     },
     {
      "rank": 3,
@@ -55,33 +55,33 @@
     },
     {
      "rank": 6,
+     "name": "코코언니",
+     "score": 56000
+    },
+    {
+     "rank": 7,
      "name": "TK",
      "score": 41000
     },
     {
-     "rank": 7,
+     "rank": 8,
      "name": "허덩크",
      "score": 35000
     },
     {
-     "rank": 8,
+     "rank": 9,
      "name": "흰곰",
      "score": 19000
     },
     {
-     "rank": 9,
+     "rank": 10,
      "name": "천부태공",
      "score": -1000
-    },
-    {
-     "rank": 10,
-     "name": "가비",
-     "score": -2000
     }
    ]
   },
   "hula_solo_quarter": {
-   "total": 52,
+   "total": 53,
    "top": [
     {
      "rank": 1,
@@ -91,7 +91,7 @@
     {
      "rank": 2,
      "name": "TK",
-     "score": 957000
+     "score": 954000
     },
     {
      "rank": 3,
@@ -130,8 +130,8 @@
     },
     {
      "rank": 10,
-     "name": "익명",
-     "score": 37000
+     "name": "코코언니",
+     "score": 56000
     }
    ]
   }
