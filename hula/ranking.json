@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18 10:00",
+ "updated": "2026-11-18 14:00",
  "boards": {
   "hula_ai_like": {
    "total": 0,
@@ -26,7 +26,7 @@
    ]
   },
   "hula_solo_month": {
-   "total": 28,
+   "total": 30,
    "top": [
     {
      "rank": 1,
@@ -55,13 +55,13 @@
     },
     {
      "rank": 6,
-     "name": "흰곰",
-     "score": 60000
+     "name": "TK",
+     "score": 41000
     },
     {
      "rank": 7,
-     "name": "TK",
-     "score": 41000
+     "name": "흰곰",
+     "score": 38000
     },
     {
      "rank": 8,
@@ -81,7 +81,7 @@
    ]
   },
   "hula_solo_quarter": {
-   "total": 49,
+   "total": 50,
    "top": [
     {
      "rank": 1,
@@ -106,7 +106,7 @@
     {
      "rank": 5,
      "name": "TKTBL",
-     "score": 385000
+     "score": 361000
     },
     {
      "rank": 6,
@@ -131,7 +131,7 @@
     {
      "rank": 10,
      "name": "흰곰",
-     "score": 60000
+     "score": 38000
     }
    ]
   }
