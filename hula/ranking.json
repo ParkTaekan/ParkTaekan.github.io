@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19 10:00",
+ "updated": "2026-11-19 22:00",
  "boards": {
   "hula_ai_like": {
    "total": 0,
@@ -40,18 +40,18 @@
     },
     {
      "rank": 3,
-     "name": "뀨",
-     "score": 241000
-    },
-    {
-     "rank": 4,
      "name": "체리케이크",
      "score": 153000
     },
     {
-     "rank": 5,
+     "rank": 4,
      "name": "&&*",
      "score": 104000
+    },
+    {
+     "rank": 5,
+     "name": "뀨",
+     "score": 86000
     },
     {
      "rank": 6,
@@ -110,18 +110,18 @@
     },
     {
      "rank": 6,
-     "name": "뀨",
-     "score": 241000
-    },
-    {
-     "rank": 7,
      "name": "체리케이크",
      "score": 153000
     },
     {
-     "rank": 8,
+     "rank": 7,
      "name": "&&*",
      "score": 104000
+    },
+    {
+     "rank": 8,
+     "name": "뀨",
+     "score": 86000
     },
     {
      "rank": 9,
