@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19 22:00",
+ "updated": "2026-11-20 10:00",
  "boards": {
   "hula_ai_like": {
    "total": 0,
@@ -31,7 +31,7 @@
     {
      "rank": 1,
      "name": "ㄱㅊ",
-     "score": 732000
+     "score": 744000
     },
     {
      "rank": 2,
@@ -50,33 +50,33 @@
     },
     {
      "rank": 5,
-     "name": "뀨",
-     "score": 86000
-    },
-    {
-     "rank": 6,
      "name": "코코언니",
      "score": 56000
     },
     {
-     "rank": 7,
+     "rank": 6,
      "name": "TK",
      "score": 41000
     },
     {
-     "rank": 8,
+     "rank": 7,
      "name": "허덩크",
      "score": 35000
     },
     {
-     "rank": 9,
+     "rank": 8,
      "name": "흰곰",
      "score": 19000
     },
     {
-     "rank": 10,
+     "rank": 9,
      "name": "천부태공",
      "score": -1000
+    },
+    {
+     "rank": 10,
+     "name": "가비",
+     "score": -2000
     }
    ]
   },
@@ -96,7 +96,7 @@
     {
      "rank": 3,
      "name": "ㄱㅊ",
-     "score": 732000
+     "score": 744000
     },
     {
      "rank": 4,
@@ -106,7 +106,7 @@
     {
      "rank": 5,
      "name": "TKTBL",
-     "score": 361000
+     "score": 345000
     },
     {
      "rank": 6,
@@ -120,18 +120,18 @@
     },
     {
      "rank": 8,
-     "name": "뀨",
-     "score": 86000
-    },
-    {
-     "rank": 9,
      "name": "yeny",
      "score": 78000
     },
     {
-     "rank": 10,
+     "rank": 9,
      "name": "코코언니",
      "score": 56000
+    },
+    {
+     "rank": 10,
+     "name": "익명",
+     "score": 37000
     }
    ]
   }
